@@ -1,6 +1,6 @@
 plugins {
     id("java")
-    id("dev.architectury.loom") version("1.7-SNAPSHOT")
+    id("dev.architectury.loom") version("1.9-SNAPSHOT")
     id("architectury-plugin") version("3.4-SNAPSHOT")
     kotlin("jvm") version ("2.0.0")
 }
@@ -35,7 +35,7 @@ dependencies {
     modImplementation (include("eu.pb4","polymer-blocks","0.9.17+1.21.1"))
     modImplementation(include("eu.pb4","polymer-resource-pack","0.9.17+1.21.1"))
     modImplementation(include("eu.pb4","polymer-virtual-entity","0.9.17+1.21.1"))
-    modImplementation("net.fabricmc.fabric-api:fabric-api:0.107.0+1.21.1")
+    modImplementation("net.fabricmc.fabric-api:fabric-api:0.114.0+1.21.1")
     modImplementation("com.cobblemon:fabric:1.6.1+1.21.1")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.1")
